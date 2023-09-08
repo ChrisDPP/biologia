@@ -1,0 +1,157 @@
+
+body{
+    height:97vh;
+}
+
+header{
+    background-color: rgb(34, 28, 124);
+    position: relative;
+    height: 10vh;
+    border-bottom: 2px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-size-adjust: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.div-geral{
+    position: relative;
+    height: 70vh;
+    width: 80%;
+    left: 20%;
+    top:15%;
+}
+
+.cabeca-cabelo{
+    position: absolute;
+    width: 20%;
+    text-align: center; 
+    top: 10%;
+    left: 10.2%;
+}
+
+.cabeca {
+    position: absolute;
+    width: 10%;
+    text-align: center; 
+    top: 31.2%;
+    left: 20%;
+}
+
+.cabelo {
+    position: absolute;
+    width: 10%;
+    text-align: center; 
+    top: 20%;
+    left: 28.8%;
+}
+
+.roxo-verde {
+    position: absolute;
+    width: 20%;
+    text-align: center; 
+    top: 41.2%;
+    left: 29.5%;
+}
+
+.rabo {
+    position: absolute;
+    width: 8%;
+    text-align: center; 
+    top: 30.2%;
+    left: 47.5%;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+    transition: filter 1s ease-in-out; /* Adiciona uma transição suave ao filtro */
+}
+
+.imagem:hover { /* Tipos de filtros, para quando passar o mouse sobre a imagem */
+    /*filter: brightness(1.1);  Ajuste o valor conforme necessário para aumentar ou diminuir o brilho */
+    /*filter: hue-rotate(90deg);  Altera a matiz da imagem ao passar o mouse */
+    filter: saturate(2); /* Aumenta a saturação em 2 vezes (ajuste conforme necessário) */
+}
+
+.zoomable { /* Tempo de transição para entrar em zoom */
+    transition: transform 0.5s ease-in-out;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+#legenda1 { /* Legenda do corpo celular */
+    font-style: italic;
+    font-size: 1.5vw;
+    font-size-adjust: auto;
+    font-family: arial;
+    position: absolute;
+    width: 500%;
+    left: 170%;
+    top: -130%;
+    padding: 1%;
+    color: #000000; /* Cor do texto da legenda */
+    display: none; /* Inicialmente, a legenda está oculta */
+}
+
+#legenda2 { /* Legenda dos dentritos */
+    font-style: italic;
+    font-size: 1.3vw;
+    font-size-adjust: auto;
+    font-family: arial;
+    position: absolute;
+    width: 500%;
+    left: -490%;
+    top: -70%;
+    padding: 1%;
+    color: #000000; /* Cor do texto da legenda */
+    display: none; /* Inicialmente, a legenda está oculta */
+}
+
+#legenda3 { /* Legenda do anxônio e do extrato */
+    font-style: italic;
+    font-family: arial;
+    font-size: 1.25vw;
+    font-size-adjust: auto;
+    position: absolute;
+    width: 280%;
+    left: -80%;
+    top: -220%;
+    padding: 1%;
+    background-color: white;
+    color: #000000; /* Cor do texto da legenda */
+    display: none; /* Inicialmente, a legenda está oculta */
+    white-space: pre-line; /* Permite que as quebras de linha sejam interpretadas */ 
+}
+
+#legenda4 { /* Legenda do anxônio e do extrato */
+    font-style: italic;
+    font-family: arial;
+    font-size: 1.3vw;
+    font-size-adjust: auto;
+    position: absolute;
+    width: 450%;
+    left: 180%;
+    top: -100%;
+    padding: 1%;
+    color: #000000; /* Cor do texto da legenda */
+    display: none; /* Inicialmente, a legenda está oculta */
+}
+
+
+
+
+
+
+

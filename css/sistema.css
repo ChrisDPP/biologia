@@ -1,0 +1,18 @@
+body{
+    height:97vh;
+}
+
+header{
+    background-color:rgb(34, 28, 124);
+    position: relative;
+    height: 120px;
+    border-bottom: 2px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-size-adjust: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
